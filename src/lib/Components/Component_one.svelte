@@ -1,7 +1,7 @@
 <main class="mt-1">
    {#each chart as item}
     
-    <div class="flex  justify-between overflow-hidden pb-1 mt-1 mr-2 max-w-lg mx-auto">
+    <div class="flex  justify-between overflow-hidden pb-1 mt-1 max-w-lg md:mx-auto mr-4">
        
        
         <dir>
