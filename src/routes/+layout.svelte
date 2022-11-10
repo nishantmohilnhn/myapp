@@ -2,5 +2,7 @@
 	import Nevbar from "$lib/Components/Nevbar.svelte";
     import "../app.css";
   </script>
-  <Nevbar/>
+  <div class="bg-slate-100">
+    <Nevbar/>
+  </div>
   <slot />
