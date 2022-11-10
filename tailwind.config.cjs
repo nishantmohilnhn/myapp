@@ -2,7 +2,10 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {}
+    extend: {},
+    colors:{
+      'kindofper':'#cdb4db',
+    }
   },
   plugins: []
 };

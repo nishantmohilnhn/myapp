@@ -1,4 +1,4 @@
-<header class="sticky top-0 ">
+<header class="sticky top-0 bg-kindofper ">
     <nav class="   flex justify-center py-2 px-4 border-b-2 border-purple-300 font-mono font-semibold text-neutral-600 flex-wrap">
         <div class="w-1/2  justify-center items-center ">
            <div class="flex justify-center">
