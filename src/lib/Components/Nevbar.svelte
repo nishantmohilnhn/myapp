@@ -13,11 +13,11 @@
             
         </div>
         {#if btncic}
-        <div transition:fade class="flex border-t-2 border-purple-300 w-full justify-center">
-            <a href="/" class="inline-block mx-2">Home</a>
-            <a href="/" class="inline-block mx-2">Home</a>
-            <a href="/" class="inline-block mx-2">Home</a>
-            <a href="/" class="inline-block mx-2">Home</a>
+        <div transition:fade class="flex flex-col border-t-2 border-purple-300 w-full justify-center items-center">
+            <a href="/" class="inline-block mt-2 font-bold ">Home</a>
+            <a href="/" class="inline-block mt-2 font-bold ">About</a>
+            <a href="/" class="inline-block mt-2 font-bold ">Product</a>
+            <a href="/" class="inline-block mt-2 font-bold ">Services</a>
         </div>
         {/if}
 
