@@ -1,40 +1,21 @@
-<header class="sticky top-0 bg-kindofper  bg-white">
-    <nav class="   flex justify-center py-2 px-4 border-b-2 border-purple-300 font-mono font-semibold text-neutral-600 flex-wrap">
-        <div class="w-1/2  justify-center items-center ">
-           <div class="flex justify-center">
-               <h1 class=" inline-block tracking-tight ">
-                  <span class=" text-purple-500  font-extrabold inline-block mr-0.5 text-xl"> MS </span>Hygiene Solution
-               </h1>
-           </div>
-            
-        </div>
-
-        <div class="w-1/2 flex  justify-around font-extrabold ">
-             <a  href="/" class=" py-1 px-2 hover:bg-purple-500 hover:text-white md:block hidden">Home</a>
-             <a  href="/about" class=" py-1 px-2 hover:bg-purple-500 hover:text-white md:block hidden">Abuot</a>
-             <a  href="/" class=" py-1 px-2 hover:bg-purple-500 hover:text-white md:block hidden">Product</a>
-             <a  href="/" class=" py-1 px-2 hover:bg-purple-500 hover:text-white md:block hidden">Services</a>
-             <a  href="/" class="  py-1 px-2 hover:bg-purple-500 hover:text-white">Contact</a>
-             <a  href="/" class="  py-1 px-2 hover:bg-purple-500 hover:text-white md:hidden " on:click="{()=>btncic=!btncic}">Menu</a>
-            </div>
-        {#if btncic}
-        <div transition:fade class="flex flex-col border-t-2 border-purple-300 w-full justify-center items-center">
-            <a href="/" class="inline-block mt-2 font-bold hover:bg-purple-500 hover:text-white ">Home</a>
-            <a href="/about" class="inline-block mt-2 font-bold hover:bg-purple-500 hover:text-white ">About</a>
-            <a href="/" class="inline-block mt-2 font-bold hover:bg-purple-500 hover:text-white ">Product</a>
-            <a href="/" class="inline-block mt-2 font-bold hover:bg-purple-500 hover:text-white ">Services</a>
-        </div>
-        {/if}
-
-        
-    </nav>
-    
-
-</header>
-
-<script>
-	import { fade } from "svelte/transition";
-
-
-    let btncic = false;
-</script>
+<header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">MS Hygiene Solution</span>
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a href="/" class="mr-5 hover:text-gray-900">Home</a>
+        <a href="/about" class="mr-5 hover:text-gray-900">About</a>
+        <a href="/" class="mr-5 hover:text-gray-900">Services</a>
+        <a href="/" class="mr-5 hover:text-gray-900">Product</a>
+      </nav>
+      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
