@@ -1,11 +1,11 @@
 <script>
   import { onMount } from 'svelte';
-  import { fade } from 'svelte/transition';
+  import { fly } from 'svelte/transition';
   let ready = false;
   onMount(() => ready = true);
 </script>
 {#if ready}
-<section transition:fade class="text-gray-600 body-font">
+<section in:fly="{{ y: 200, duration: 7000 }}" class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap w-full mb-20">
       <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
