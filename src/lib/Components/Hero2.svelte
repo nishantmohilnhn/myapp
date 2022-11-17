@@ -3,11 +3,11 @@
       <div class="flex w-full mx-auto text-left">
         <div class="relative inline-flex items-center mx-auto align-middle">
           <div class="text-center">
-            <h1 class="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
-              Long headline to turn <br class="hidden lg:block">
-              your visitors into users
+            <h1 class="text-purple-500 max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-6xl lg:max-w-7xl">
+                From machine to Raw material <br class="hidden lg:block">
+               From product to production
             </h1>
-            <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-gray-500">Free and Premium themes, UI Kit's, templates and landing pages built with Tailwind CSS, HTML &amp; Next.js.</p>
+            <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-gray-500">consultancy for service with every aspect of production and packaging</p>
             <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
               <div class="mt-3 rounded-lg sm:mt-0">
                 <button class="items-center block px-5 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform  bg-pink-400 lg:px-10 rounded-xl hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500">Get bundle</button>
