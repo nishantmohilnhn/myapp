@@ -1,24 +1,37 @@
-<section class="w-full bg-white">
-    <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
-      <div class="flex w-full mx-auto text-left">
-        <div class="relative inline-flex items-center mx-auto align-middle">
-          <div class="text-center">
-            <h1 class="text-purple-500 max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-6xl lg:max-w-7xl">
-                From machine to Raw material <br class="hidden lg:block">
-               From product to production
-            </h1>
-            <p class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-gray-500">consultancy for service with every aspect of production and packaging</p>
-            <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
-              <div class="mt-3 rounded-lg sm:mt-0">
-                <button class="items-center block px-5 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform  bg-pink-400 lg:px-10 rounded-xl hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500">Get bundle</button>
-              </div>
-              <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
-                <button class="items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-pink-400 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">See features</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<script>
+ 	import viewport from './useViewportAction';
+  import {fly} from 'svelte/transition'
+
+  let vise=false;
+
+</script>
+
+
+
+
+<section 
+    use:viewport
+    on:enterViewport={()=> vise = true}
+class="text-gray-600 body-font bg-purple-100">
+{#if vise}
+  <div
+  transition:fly="{{ y: 200, duration: 2000 }}"
+  class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-12">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">  Contact us via email.</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep.</p>
     </div>
-  </section>
-  
+    <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+      <div class="relative flex-grow w-full">
+        <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+        <input type="text" id="full-name" name="full-name" class="w-full bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-white focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative flex-grow w-full">
+        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+        <input type="email" id="email" name="email" class="w-full bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-white focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <button class="w-full md:w-auto text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Submit</button>
+    </div>
+  </div>
+  {/if}
+</section>
