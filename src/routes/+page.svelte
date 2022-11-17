@@ -3,9 +3,11 @@
 	import Fotter from "$lib/Components/Fotter.svelte";
 	import Gale from "$lib/Components/Gale.svelte";
 	import Hero from "$lib/Components/Hero.svelte";
+	import Secondseg from "$lib/Components/Secondseg.svelte";
 	import Stats from "$lib/Components/Stats.svelte";
 </script>
 <Hero/>
+<Secondseg/>
 <ComponentOne/>
 <Stats/>
 <Gale/>
