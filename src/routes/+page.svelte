@@ -8,6 +8,6 @@
 	import Stats from "$lib/Components/Stats.svelte";
 </script>
 <Hero/>
-<Secondseg/>
 <Hero2/>
+<Secondseg/>
 <Fotter/>
