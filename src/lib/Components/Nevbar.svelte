@@ -1,16 +1,13 @@
-<header class="text-gray-600 body-font">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span class="ml-3 text-xl">Diaper Experts</span>
-      </a>
-      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-        <a href="/" class="mr-5 hover:text-gray-900">Home</a>
-        <a href="/about" class="mr-5 hover:text-gray-900">About</a>
-        <a href="/" class="mr-5 hover:text-gray-900">Services</a>
-        <a href="/" class="mr-5 hover:text-gray-900">Product</a>
-      </nav>
+<div class=" sticky top-0 bg-neutral-50 text-white p-1  ">
+  <div class="flex  items-center justify-between">
+    <div class="flex items-center m-1  gap-1">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <h1 class=" text-neutral-800  text-xl font-semibold">DiaperExperts</h1>      
     </div>
-  </header>
+    <div class=" pr-2">
+      <svg width="18" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 13H1M17 9H1M17 5H1M17 1H1" stroke="#14181F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+  </div>
+</div>
