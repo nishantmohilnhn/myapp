@@ -1,3 +1,4 @@
+
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-5 mx-auto">
       <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
@@ -90,5 +91,6 @@
           </div>
         </div>
     </div>
-    <button class="flex mx-auto mt-16 text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Button</button>
+    <button class="flex mx-auto mt-16 text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Learn More.</button>
   </section>
+
