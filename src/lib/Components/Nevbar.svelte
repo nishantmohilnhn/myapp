@@ -20,12 +20,12 @@
   </div>
 
 <!---menu-->
-<div class:hidden class="sm:flex sm:gap-1">
-  <a on:click={() => (hidden = !hidden)} class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0" href="/">Home</a>
+<div class:hidden class="sm:flex sm:gap-1 items-center">
+  <a on:click={bawa} class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0" href="/">Home</a>
   <a on:click={() => (hidden = !hidden)} class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0" href="/services">Services</a>
   <a on:click={() => (hidden = !hidden)} class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0" href="/">Work With Us</a>
   <a on:click={() => (hidden = !hidden)} class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0" href="/about">About Us</a>
-  <a on:click={() => (hidden = !hidden)} class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 bg-purple-500 px-1 text-center font-semibold text-neutral-50 hover:bg-purple-800" href="/">Get in Touch</a>
+  <a on:click={() => (hidden = !hidden)} class="mr-1 ml-2 mt-1 block rounded-full border-b-2 border-purple-100 bg-purple-500 px-1 py-1 text-center font-semibold text-neutral-50 hover:bg-purple-800" href="/">Get in Touch</a>
 </div>
 
 
@@ -35,4 +35,7 @@
 
 <script>
   let hidden = true;
+  function bawa(){
+    hidden = !hidden
+  }
 </script>
