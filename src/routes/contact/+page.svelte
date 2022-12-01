@@ -34,9 +34,4 @@
         <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
       </div>
     </div>
-    <div class="sm:flex sm:gap-1 sm:mx-24">
-        <a class="w-1/3 rounded-md bg-blue-400 py-1 text-center text-lg font-medium text-white" href="/">Email</a>
-        <a class="w-1/3 rounded-md bg-lime-600 py-1 text-center text-lg font-medium text-white" href="https://api.whatsapp.com/send?phone=918219491416">Whatsapp</a>
-        <a class="w-1/3 rounded-md bg-my-nvy2 py-1 text-center text-lg font-medium text-white" href="/">WeChat</a>
-      </div>
 </section>
