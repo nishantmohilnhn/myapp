@@ -1,4 +1,4 @@
-<header class=" sticky top-0 bg-neutral-50 sm:flex sm:justify-between md:justify-around items-center">
+<header class=" sticky top-0 bg-white sm:flex sm:justify-between md:justify-around items-center opacity-95">
 
 
   <div class="flex items-center justify-between px-2 py-2">

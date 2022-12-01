@@ -8,7 +8,8 @@ module.exports = {
         'my-nvy2':'#624F82',
         'my-purp1':'#9F73AB',
         'my-blue':'#A3C7D6'
-          }
+          },
+          fontFamily:{'Roboto':'sans-serif'}
     },
   },
   plugins: []
