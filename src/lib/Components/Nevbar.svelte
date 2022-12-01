@@ -49,22 +49,22 @@
 			href="/">Home</a
 		>
 		<a
-			on:click={() => (hidden = !hidden)}
+			on:click={bawa}
 			class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0"
 			href="/services">Services</a
 		>
 		<a
-			on:click={() => (hidden = !hidden)}
+			on:click={bawa}
 			class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0"
 			href="/cta">Work With Us</a
 		>
 		<a
-			on:click={() => (hidden = !hidden)}
+			on:click={bawa}
 			class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0"
 			href="/about">About Us</a
 		>
 		<a
-			on:click={() => (hidden = !hidden)}
+			on:click={bawa}
 			class="mr-1 ml-2 mt-1 block rounded-full border-b-2 border-purple-100 bg-my-nvy1 px-1 py-1 text-center font-semibold text-neutral-50 hover:bg-purple-800 md:px-2"
 			href="/contact">Get in Touch</a
 		>
