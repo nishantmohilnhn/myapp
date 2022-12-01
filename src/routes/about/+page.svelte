@@ -2,7 +2,7 @@
     <div class="container px-5 py-24 mx-auto flex flex-col">
       <div class="lg:w-4/6 mx-auto">
         <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500">
+          <img alt="content" class="object-cover object-center h-full w-full" src="https://images.unsplash.com/photo-1612882514971-2b37fe71d58c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80">
         </div>
         <div class="flex flex-col sm:flex-row mt-10">
           <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -13,7 +13,7 @@
               </svg>
             </div>
             <div class="flex flex-col items-center text-center justify-center">
-              <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
+              <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">MS hygiene solution</h2>
               <div class="w-12 h-1 bg-purple-500 rounded mt-2 mb-4"></div>
               <p class="text-base">Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.</p>
             </div>
