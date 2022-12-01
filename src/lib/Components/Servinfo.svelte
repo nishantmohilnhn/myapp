@@ -2,35 +2,35 @@
 	let databo = [
 		{
 			name: 'Plant Layout',
-			tagline: 'we provide you with the best possible service with leading technology and products'
+			tagline: 'we provide the best possible service'
 		},
 		{
 			name: 'Machinery Layout',
-			tagline: 'we provide you with the best possible service with leading technology and products'
+			tagline: 'we provide the best possible service'
 		},
 		{
 			name: 'Product Validation',
-			tagline: 'we provide you with the best possible service with leading technology and products'
+			tagline: 'we provide the best possible service'
 		},
 		{
 			name: 'Class Room Tanning ',
-			tagline: 'we provide you with the best possible service with leading technology and products'
+			tagline: 'we provide the best possible service'
 		},
 		{
 			name: 'On Job Tanning ',
-			tagline: 'we provide you with the best possible service with leading technology and products'
+			tagline: 'we provide the best possible service'
 		},
 		{
 			name: 'Raw Materials Selection ',
-			tagline: 'we provide you with the best possible service with leading technology and products'
+			tagline: 'we provide the best possible service'
 		},
 		{
 			name: 'Labour Inquiry ',
-			tagline: 'we provide you with the best possible service with leading technology and products'
+			tagline: 'we provide the best possible service'
 		},
 		{
 			name: 'one solution Services. ',
-			tagline: 'we provide you with the best possible service with leading technology and products'
+			tagline: 'we provide the best possible service'
 		}
 	];
 </script>
