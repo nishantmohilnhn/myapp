@@ -6,17 +6,17 @@
 </script>
 
 <div class="">
-	<div class=" bg-my-nvy1">
+	<div class="">
 		{#if ready}
 			<div in:fly={{ delay: 250, x: -200, duration: 4000 }}>
-				<p class="pt-16 text-center text-4xl font-extrabold text-white md:text-6xl">
+				<p class="pt-16 text-center text-4xl font-extrabold text-my-nvy1 md:text-6xl">
 					Grow your business,<br />Succeed with Us.
 				</p>
 				<div class="mt-2 flex justify-center gap-4">
-					<p class="text-center text-2xl font-thin text-white">Product Design</p>
-					<p class="text-center text-2xl font-thin text-white">Machine Design</p>
+					<p class="text-center text-2xl font-thin text-my-nvy1">Product Design</p>
+					<p class="text-center text-2xl font-thin text-my-nvy1">Machine Design</p>
 				</div>
-				<p class="text-center text-2xl font-thin text-white pb-16">And much more.</p>
+				<p class="text-center text-2xl font-thin text-my-nvy1 pb-16">And much more.</p>
 			</div>
 		{/if}
 	</div>

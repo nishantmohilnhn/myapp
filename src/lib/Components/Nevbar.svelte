@@ -56,7 +56,7 @@
 		<a
 			on:click={() => (hidden = !hidden)}
 			class="ml-2 mt-1 block rounded-md border-b-2 border-purple-100 px-1 hover:text-purple-500 sm:border-b-0"
-			href="/">Work With Us</a
+			href="/cta">Work With Us</a
 		>
 		<a
 			on:click={() => (hidden = !hidden)}

@@ -35,13 +35,10 @@
 	];
 </script>
 
-<section
-	class=" body-font min-h-screen bg-cover bg-no-repeat bg-fixed bg-center "
-	style="background-image: url('https://images.unsplash.com/photo-1612685180313-bdfe1d6896cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2980&q=80')"
->
+<section class=" body-font ">
 	<div class="container px-5 py-24 mx-auto">
 		<div class="flex flex-col text-center w-full mb-20">
-			<h2 class="text-xs text-gray-200 tracking-widest font-medium title-font mb-1">
+			<h2 class="text-xs text-my-purp1 tracking-widest font-medium title-font mb-1">
 				Our Services
 			</h2>
 			<h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-my-nvy1">
