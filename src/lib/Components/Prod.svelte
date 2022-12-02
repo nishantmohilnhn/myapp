@@ -56,8 +56,8 @@
 	<p class="mt-2 font-Roboto p-2 text-center font-semibold text-gray-700">
 		We Have Provided the Design of the Quality Product List are According to below.
 	</p>
-	<section class=" relative ">
-		<div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+	<section class="  static ">
+		<div class=" static items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
 			<div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
 				{#each productsTypes as i}
 					
